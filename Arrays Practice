@@ -1,0 +1,24 @@
+const myArray = [10,20,30];
+console.log(myArray);
+
+myArray.push(40);
+console.log(myArray);
+// .push adds to end of array
+var newArray = myArray.pop();
+console.log(newArray);
+
+let yourArray = ["Dad", 23];
+console.log(yourArray);
+
+let myAray= yourArray.shift();
+console.log(myAray);
+console.log(yourArray);
+
+yourArray.unshift(11, "cat");
+console.log(yourArray);
+/*.shift removes first element .pop removes last element
+ unshift adds element to the beginning */
+
+var newest=  yourArray.reverse();
+console.log(newest)
+ 
